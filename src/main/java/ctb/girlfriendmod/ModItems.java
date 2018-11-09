@@ -18,7 +18,7 @@ public class ModItems {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-//        simpleTexturedItem.initModel();
+        firstItem.initModel();
 //        multiModelItem.initModel();
     }
 

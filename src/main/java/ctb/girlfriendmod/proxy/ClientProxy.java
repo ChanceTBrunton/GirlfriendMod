@@ -1,7 +1,9 @@
 package ctb.girlfriendmod.proxy;
 
 import ctb.girlfriendmod.GirlfriendMod;
+import ctb.girlfriendmod.ModBlocks;
 import ctb.girlfriendmod.ModEntities;
+import ctb.girlfriendmod.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoaderRegistry;
 import net.minecraftforge.client.model.obj.OBJLoader;
@@ -36,7 +38,8 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-
+        ModItems.initModels();
+        ModBlocks.initModels();
     }
 
 }
