@@ -1,0 +1,16 @@
+[
+{
+  "modid": "girlfriendmod",
+  "name": "Girlfriend Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Chance T. Brunton"],
+  "credits": "The Forge and FML guys, for their tutorials and examples.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
